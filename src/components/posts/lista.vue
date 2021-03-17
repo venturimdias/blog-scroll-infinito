@@ -76,11 +76,14 @@ export default {
   grid-gap: 25px 10px;
 }
 
-/* 
 @media only screen and (max-width: 768px) {
-  grid-template-columns: 1fr 1fr;
+  .lista {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media only screen and (max-width: 500px) {
-  grid-template-columns: 1fr;
-} */
+  .lista {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
